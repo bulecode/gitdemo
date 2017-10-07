@@ -15,4 +15,11 @@ public class TestController {
         return a + "";
     }
 
+
+
+    @RequestMapping
+    public String test5(String a) {
+        return a + 5;
+    }
+
 }
