@@ -12,19 +12,14 @@ public class TestController {
 
     @RequestMapping
     public String test1(String a) {
-        return a + "b";
+        return a + "";
     }
+
 
 
     @RequestMapping
-    public String test3(int a,int b) {
-        int i = a + b;
-        return Integer.toString(i);
+    public String test5(String a) {
+        return a + 5;
     }
 
-
-    @RequestMapping
-    public String test2(String c) {
-        return c + "c";
-    }
 }
