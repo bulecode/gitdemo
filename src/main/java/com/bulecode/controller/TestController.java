@@ -27,4 +27,11 @@ public class TestController {
     public String test2(String c) {
         return c + "c";
     }
+
+
+    @RequestMapping
+    public String test5(String a) {
+        return a + 5;
+    }
+
 }
