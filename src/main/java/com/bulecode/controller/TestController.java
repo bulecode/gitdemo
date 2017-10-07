@@ -15,4 +15,11 @@ public class TestController {
         return a + "";
     }
 
+
+    @RequestMapping
+    public String test1(int a,int b) {
+        int i = a + b;
+        return Integer.toString(i);
+    }
+
 }
